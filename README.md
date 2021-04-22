@@ -42,6 +42,11 @@ yarn
 anchor test
 ```
 
+### Run a crank
+
+Optionally, one should run a crank against any listed markets on the localnetwork.
+This is not yet setup.
+
 ## Non Anchor Programs
 
 If you're not using Anchor, you can just snag the [script](https://github.com/armaniferrante/serum-quickstart/blob/master/tests/utils/index.js) used by the tests to initialize the orderbook.
