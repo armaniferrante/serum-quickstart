@@ -20,6 +20,10 @@ git clone --recursive https://github.com/armaniferrante/serum-quickstart.git
 
 Setup Anchor with the instructions [here](https://project-serum.github.io/anchor/getting-started/installation.html).
 
+### Set wallet directory
+
+By default, you should have your solana keypair setup in the default path, i.e. `~/.config/solana/id.json`. If you are using a custom path, make sure to update the `Anchor.toml` to use your custom path.
+
 ### Build the dex
 
 ```
