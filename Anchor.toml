@@ -1,0 +1,6 @@
+cluster = "localnet"
+wallet = "/home/armaniferrante/.config/solana/id.json"
+
+[[test.genesis]]
+address = "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+program = "./deps/serum-dex/dex/target/bpfel-unknown-unknown/release/serum_dex.so"
